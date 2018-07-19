@@ -1,0 +1,66 @@
+<view class="receive-container">
+    <view class="receive-conent">
+        <view class="receive-result">
+            <view class="receive-result-title">
+                <image src="../../images/challenge-ok.png" class="img-challenge-ok"></image>
+            </view>
+            <view class="receive-player-result">
+                <view class="receive-my-result receive-result-item">
+                    <view class="palyer-title">= 得分 =</view>
+                    <view class="palyer-score">11122</view>
+                    <view class="palyer-info">
+                        <image src="../../images/user.jpg" class="palyer-head"></image>
+                        <view class="player-name">大梨子</view>
+                    </view>
+                </view>
+                <view class="receive-Challenge-result receive-result-item">
+                    <view class="palyer-title">= 得分 =</view>
+                    <view class="palyer-score receive-player-score">11122</view>
+                    <view class="palyer-info">
+                        <image src="../../images/user.jpg" class="palyer-head"></image>
+                        <view class="player-name">大梨子</view>
+                    </view>
+                </view>
+            </view>
+            <view class="btn-Challenge">再次挑战</view>
+            <view class="start-Challenge-score">有效时间至23:59:59</view>
+        </view>
+        <view class="receive-player-list">
+            <view class="challenge-player-item challenge-my-item">
+                <view class="challenge-player-flex">
+                    <view class="challenge-player-rank">1</view>
+                    <image class="challenge-player-head" src="../../images/user.jpg"></image>
+                    <view class="challenge-player-mark">
+                        <view class="challenge-player-i">大梨子</view>
+                        <view class="challenge-player-i">5201314</view>
+                    </view>
+                </view>
+                <view class="challenge-result">挑战成功</view>
+            </view>
+            <view class="challenge-player-item">
+                <view class="challenge-player-flex">
+                    <view class="challenge-player-rank">1</view>
+                    <image class="challenge-player-head" src="../../images/user.jpg"></image>
+                    <view class="challenge-player-mark">
+                        <view class="challenge-player-i">大梨子</view>
+                        <view class="challenge-player-i">5201314</view>
+                    </view>
+                </view>
+                <view class="challenge-result">挑战成功</view>
+            </view>
+            <view class="challenge-player-item">
+                <view class="challenge-player-flex">
+                    <view class="challenge-player-rank">1</view>
+                    <image class="challenge-player-head" src="../../images/user.jpg"></image>
+                    <view class="challenge-player-mark">
+                        <view class="challenge-player-i">大梨子</view>
+                        <view class="challenge-player-i">5201314</view>
+                    </view>
+                </view>
+                <view class="challenge-result">挑战成功</view>
+            </view>
+        </view>
+    </view>
+    <view class="direct-play">不挑战，直接玩></view>
+    <image src="../../images/mark-adv.png" class="img-adv"></image>
+</view>

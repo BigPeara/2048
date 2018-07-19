@@ -1,0 +1,19 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/rank/rank",
+    "pages/crowd/crowd",
+    "pages/2048/2048",
+    "pages/2048-mark/2048-mark",
+    "pages/2048-end/2048-end",
+    "pages/start-Challenge/start-Challenge",
+    "pages/receive-Challenge/receive-Challenge",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"#fff",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "决战2048",
+    "navigationBarTextStyle":"#fff"
+  }
+}

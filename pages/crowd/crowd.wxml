@@ -1,0 +1,119 @@
+<view class='rankBox'>
+  <view class='rank'>
+    <view class='rankInfo'>
+    <!--标题  -->
+      <view class='titleList'>
+       <text class='crowd'>群排行榜</text>
+       <text class='weekupdate'>（每周一凌晨更新）</text>
+      </view>
+      <!--内容-->
+      <view class='items'>
+          <view class='ranklist'>
+             <!-- <text class='headline'>暂无人挑战，等你上榜~</text> -->
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort two'>2</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort two'>2</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort two'>2</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort two'>2</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort two'>2</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort two'>2</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort two'>2</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort two'>2</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+          </view>
+      </view>
+      <view class='last'>
+            <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='popularity'>100+</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+          </view> 
+
+    </view>
+  </view>
+  <!--再玩一局  -->
+  <view class='btn-again'>
+    <text class='againTime'>再玩一局</text>
+    <image src='../../image/btn-again.png' class='nextImg'></image>
+  </view>
+  <!--广告  -->
+  <view class='advBox'>
+  <image src='../../image/adv.png' class='advImg'></image>
+  </view> 
+</view>

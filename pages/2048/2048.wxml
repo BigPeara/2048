@@ -1,0 +1,62 @@
+<view class="container">
+
+  <view class="game-body">
+    <loading hidden="{{hidden}}">
+        加载中...
+    </loading>
+    <view class="heading">
+        <view><image src="../../images/logo.png" class="title-img"></image></view>
+      	<view class="scores-container">
+					<view class="scores-Container">
+						<view class="score-start">
+							<text class="score-text">当前分数</text>
+							<view  class="scores-number">{{score}}</view>
+						</view>
+						<view class="score-history">
+							<text class="score-text">最高得分</text>
+							<view  class="scores-number">{{highscore}}</view>
+						</view>
+      		</view>
+					<view class="recom-btn">
+						<view class="restart-btn" bindtap="restart">重新开始</view>
+						<view class="restart-btn">分享挑战</view>
+					</view>
+				</view>
+    </view>
+
+		<view class="game-ready">
+			<navigator url="../start-Challenge/start-Challenge">	<text>合并数字方块得到2048，are you ready？</text></navigator>
+		</view>
+    <!--<view class="above-game">
+      	<text class="game-intro">你能拿到2048吗？</text>
+      	<text class="restart-button" bindtap="restart">新游戏</text>
+    </view>-->
+    <view class="game-container">
+
+        <!--游戏结束显示  -->
+        <view class="game-message game-{{over ? (win ? 'won' : 'over') : ''}}">
+          	<text class="over-msg">{{overMsg}}</text>
+          	<view class="lower">
+	        	 <text class="keep-playing-button">继续</text>
+          		<text class="retry-button" bindtap="bindView">再试一次</text><!--restart-->
+        	</view>
+        </view>
+
+	    <view class="grid-container" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd">
+			<view wx:for="{{grids}}" wx:for-index="rowIdx" wx:for-item="row" class="grid-row">
+			  	<view wx:for="{{row}}" wx:for-index="colIdx" wx:for-item="cell" class="grid-cell">
+			  		<view class="tile tile-{{cell.value}}"><!--tile-position-{{colIdx+1}}-{{rowIdx+1}}-->
+			  			<view wx:if="{{cell}}" class="tile-inner">
+			      			{{cell.value}}
+			      		</view>
+			  		</view>
+			  	</view>
+			</view>
+	    </view>
+
+  	</view>
+  	<!-- <view class="game-explanation">
+      <view class="important">如何开始：</view> 手指上下左右滑动
+    </view> -->
+</view>
+</view>

@@ -1,0 +1,63 @@
+<view class="gameEnd-container">
+    <view class="gameEnd-header">
+        <image src="../../images/mark.png" class="img-title"></image>
+        <image src="../../images/share.png" class="img-share"></image>
+    </view>
+    <view class="gameEnd-user">
+        <image src="../../images/user.jpg" class="img-head"></image>
+        <text class="nickName">baby</text>
+    </view>
+    <view class="gameEnd-score">
+        <text class="thisScore">= 本次得分 =</text>
+        <view class="score">{{score}}</view>
+        <view class="score-high">本周最高分:{{highscore}}</view>
+        <view class="score-state">
+            <image src="../../images/new.png" class="img-new"></image>
+            <image src="../../images/highest.png" class="img-new" style="display: none;"></image>
+        </view>
+    </view>
+    <view class="gameEnd-rank">
+        <view class="gameEnd-rank-title">南京市成绩排名每周一凌晨更新</view>
+        <view class="gameEnd-rank-list">
+            <view class="player-details">
+                <view class="player-details-item">
+                    <view class="player-rank">1</view>
+                    <view class="player-info">
+                        <image src="../../images/user.jpg" class="img-user-head"></image>
+                        <text class="player-name">仙丹</text>
+                    </view>
+                </view>
+                <view class="user-score">{{highscore}}</view>
+            </view>
+            
+        </view>
+        <view class="btn-look-rank">查看南京市排行榜</view>
+    </view>
+    <view class="gameEnd-prompt">
+        <view class="gameEnd-prompt-info">
+            <view class="gameEnd-prompt-text">恭喜你打败10%的用户</view>
+            <view class="gameEnd-prompt-texts">年轻人，我看你骨骼清奇是个奇才</view>
+        </view>
+        <view class="gameEnd-prompt-b"></view>
+    </view>
+    <view class="game-again">
+        <view class="game-again-flex">
+            <view class="btn-click">
+                <view class="btn-challenge">
+                    <text class="btn-click-text">发起</text>
+                    <text class="btn-click-text">挑战</text>
+                </view>
+            </view>
+            <view class="btn-again">
+            再玩一局
+                <image src="../../images/icon-x.png" class="icon-x"></image>
+            </view>
+            <view class="btn-rank btn-click">
+                <image src="../../images/icon-rank.png" class="icon-rank"></image>
+                <text class="btn-click-text">群排行</text>
+            </view>
+        </view>
+        <view class="score-history">历史最高分</view>
+    </view>
+    <image src="../../images/mark-adv.png" class="img-adv"></image> 
+</view>

@@ -1,0 +1,69 @@
+<view class="mark-container">
+    <view class="mark-header">
+        <image src="../../images/mark.png" class="img-title"></image>
+    </view>
+    <view class="mark-user">
+        <image src="../../images/user.jpg" class="img-head"></image>
+        <text class="nickName">baby</text>
+    </view>
+    <view class="mark-score">
+        <text class="thisScore">= 本次得分 =</text>
+        <view class="scores">{{score}}</view>
+        <view class="score-high">本周最高分:{{highscore}}</view>
+        <view class="score-state">
+            <image src="../../images/new.png" class="img-new" wx:if="" style="display: none;"></image>
+           <image src="../../images/highest.png" class="img-new"></image>
+        </view>
+    </view>
+    <view class="mark-rank">
+        <view class="mark-rank-title">南京市成绩排名每周一凌晨更新</view>
+        <view class="mark-rank-list">
+            <view class="player-details">
+                <view class="player-details-item">
+                    <view class="player-rank">1</view>
+                    <view class="player-info">
+                        <image src="../../images/user.jpg" class="img-user-head"></image>
+                        <text class="player-name">仙丹</text>
+                    </view>
+                </view>
+                <view class="user-score">{{highscore}}</view>
+            </view>
+            <view class="player-details">
+                <view class="player-details-item">
+                    <view class="player-rank">1</view>
+                    <view class="player-info">
+                        <image src="../../images/user.jpg" class="img-user-head"></image>
+                        <text class="player-name">仙丹</text>
+                    </view>
+                </view>
+                <view class="user-score">{{highscore}}</view>
+            </view> 
+            <view class="player-details">
+                <view class="player-details-item">
+                    <view class="player-rank">1</view>
+                    <view class="player-info">
+                        <image src="../../images/user.jpg" class="img-user-head"></image>
+                        <text class="player-name">仙丹</text>
+                    </view>
+                </view>
+                <view class="user-score">{{highscore}}</view>
+            </view>  
+        </view>
+        <view class="btn-look-rank">查看南京市排行榜</view>
+    </view>
+    <view class="mark-prompt">
+        <view class="mark-prompt-info">
+            <view class="mark-prompt-text">恭喜你打败10%的用户</view>
+            <view class="mark-prompt-texts">年轻人，我看你骨骼清奇是个奇才</view>
+        </view>
+        <view class="mark-prompt-b"></view>
+    </view>
+    <view class="game-again"> 
+        <view class="btn-again">
+        我也要玩
+        <image src="../../images/icon-x.png" class="icon-x"></image>
+        </view>
+    </view>
+     <view class="look-rank">查看排行榜</view>
+    <image src="../../images/mark-adv.png" class="img-adv"></image> 
+</view>

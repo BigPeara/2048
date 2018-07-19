@@ -1,0 +1,241 @@
+  page{
+    width: 100%;
+    height: 100%;
+  }
+  .rankBox{
+   width: 100%;
+   height: 100%;
+   background-color: #2a2338;
+   overflow: hidden;
+}
+.rank{
+  width: 690rpx;
+  margin: 150rpx 30rpx 90rpx 30rpx;
+}
+.rank .rankInfo{
+  width: 690rpx;
+  height: 720rpx;
+  background-color: #ffde94;
+  border-radius:10rpx;
+  -webkit-border-radius:10rpx;
+  margin-top: 10rpx;
+  position: relative;
+}
+.titleList{
+  width: 690rpx;
+  height: 90rpx;
+  background: -webkit-linear-gradient(#f6d267, #f5c266); 
+  background: -o-linear-gradient(#f6d267, #f5c266); 
+  background: -moz-linear-gradient(#f6d267, #f5c266);
+  background: linear-gradient(#f6d267, #f5c266);
+  border-top-left-radius:10rpx;
+  border-top-right-radius:10rpx;
+  overflow: hidden;
+}
+.crowd{
+  width: 690rpx;
+  font-size: 30rpx;
+  display: block;
+  text-align: center;
+  color: #333;
+  margin-top: 10rpx;
+  font-weight: 600
+}
+.weekupdate{
+  width: 690rpx;
+  font-size: 24rpx;
+  display: block;
+  text-align: center;
+  color: #333;
+}
+.items{
+  width: 690rpx;
+  height: 535rpx;
+  
+}
+.ranklist{
+  width: 630rpx;
+  height: 535rpx;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+  overflow-y: scroll;
+}
+.ranklist::-webkit-scrollbar {/*隐藏滚轮*/
+display: none;
+}
+.ranklist .headline{
+  display: block;
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 200rpx;
+  text-align: center
+}
+.last{
+height: 95rpx;
+line-height: 95rpx;
+background-color: #f6cd66;
+padding: 0 30rpx;
+margin-top: 10rpx;
+border-bottom-left-radius:10rpx;
+border-bottom-right-radius:10rpx;
+}
+.last .user{
+  width: 100%;
+  height: 95rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+  display: -webkit-flex;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.last .popularity{
+  display: block;
+  height: 95rpx;
+  line-height: 95rpx;
+  font-size: 24rpx;
+  color: #999; 
+  margin-right: 20rpx;
+}
+.last .uesrinfo{
+  height: 95rpx;
+  width: 70%;
+  display: flex;
+  display: -webkit-flex;
+  display: -webkit-box;
+}
+.last .uesrinfo .nickname{
+  line-height: 95rpx;
+  width: 35%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 24rpx;
+  color: #333;
+  display: block;
+  margin-left: 20rpx;
+}
+.last .uesrinfo .headImg{
+  margin-top: 18rpx;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  -webkit-border-radius:30rpx;
+  background-color: gray;
+}
+.last .score{
+   display: block;
+   line-height: 95rpx;
+   font-size: 30rpx;
+   color: #333; 
+}
+.btn-again{
+  width: 275rpx;
+  height:85rpx;
+  line-height: 85rpx;
+  text-align: center;
+  background-color: #df6240;
+  border-radius:40rpx;
+  -webkit-border-radius:40rpx;
+  font-size: 30rpx;
+  color: #fff;
+  margin: 0 auto;
+   display: flex;
+  display: -webkit-flex;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+}
+.nextImg{
+  width: 30rpx;
+  height: 30rpx;
+  margin-left: 8rpx;
+  display: block;
+}
+.advBox{
+  width: 100%;
+  height: 155rpx;
+  margin-top: 55rpx;
+}
+.advImg{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.user{
+  width: 100%;
+  height: 60rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+  display: -webkit-flex;
+  display: -webkit-box;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between; 
+}
+.uesrinfo{
+  width: 70%;
+  height: 60rpx;
+  display: flex;
+  display: -webkit-flex;
+  display: -webkit-box;
+}
+.sort{
+  display: block;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border-radius: 20rpx;
+  -webkit-border-radius:20rpx;
+  text-align: center;
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  color: #fff; 
+  margin-right: 30rpx;
+}
+.one{
+   background-color: #facc3f;
+}
+.two{
+background-color: #bebebe;
+}
+.three{
+background-color: #fcb592;
+}
+.four{
+ color: #999;
+ text-shadow:-1px -1px #bca486,;
+}
+.five{
+color: #999;
+text-shadow:1px 1px #bca486;
+}
+.headImg{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 30rpx;
+  -webkit-border-radius:30rpx;
+  background-color: gray;
+}
+.nickname{
+  width: 35%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 24rpx;
+  color: #333;
+  display: block;
+  line-height: 60rpx;
+  margin-left: 20rpx;
+}
+.score{
+  line-height: 60rpx;
+  display: block;
+  font-size: 30rpx;
+  color: #333;
+}

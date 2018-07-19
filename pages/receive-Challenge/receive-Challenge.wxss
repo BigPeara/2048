@@ -1,0 +1,28 @@
+.receive-container{background-color: #2a2338;}
+
+.receive-conent{padding-top: 141rpx;margin: 0 28rpx;}
+.receive-conent .receive-result{position: relative;background: linear-gradient(#f6d267,#f5c666,#f6c666);color: #333;text-align: center;border-top-left-radius: 10rpx;border-top-right-radius: 10rpx;}
+.receive-conent .receive-result .receive-result-title{position: absolute;top: -138rpx;width: 100%;}
+.receive-conent .receive-result .img-challenge-ok{width: 390rpx;height: 296rpx;}
+.receive-conent .receive-result .receive-player-result{display: flex;justify-content: space-between;padding-top: 220rpx;margin: 0 63rpx;}
+.receive-conent .receive-result .receive-result-item{flex: 1;padding-bottom: 57rpx;}
+.receive-conent .receive-result .palyer-title{color: #333;font-size: 22rpx;text-align: center;}
+.receive-conent .receive-result .palyer-score{color: #FF6612;font-size: 72rpx;font-weight: bold;text-align: center;padding: 33rpx 0 27rpx;}
+.receive-conent .receive-result .receive-player-score{color: #999;}
+.receive-conent .receive-result .palyer-head{width: 79rpx;height: 79rpx;border-radius: 50%;display: block;margin: 0 auto;}
+.receive-conent .receive-result .player-name{font-size: 20rpx;width: 120rpx;height: 25rpx;line-height: 25rpx;background-color: #ffff;color: #333;text-align: center;border-radius: 20rpx;padding: 3rpx 0;margin: -3rpx auto 0;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 1;overflow: hidden;}
+.receive-conent .receive-result .btn-Challenge{font-size: 24rpx;color: #fff;width: 170rpx;height: 61rpx;line-height: 61rpx;margin: 0 auto;border-radius: 50rpx;background-color: #F46A2E;margin-bottom: 30rpx;display: block;}
+.receive-conent .receive-result .start-Challenge-score{font-size: 22rpx;color: #333;padding-bottom: 42rpx;}
+
+.receive-conent .receive-player-list{height: 289rpx;background-color: #FFDE94;border-bottom-left-radius: 10rpx;border-bottom-right-radius: 10rpx;overflow-y: auto;}
+.receive-conent .receive-player-list .challenge-result{margin-right: 22rpx;font-size: 24rpx;color: #DF6240;}
+.receive-conent .receive-player-list .challenge-player-item{display: flex;justify-content: space-between;align-items: center;border-bottom: 1rpx solid #F6CF67;padding: 18rpx 0;}
+.receive-conent .receive-player-list .challenge-my-item{background-color: #F4BF4E;}
+.receive-conent .receive-player-list .challenge-player-flex{display: flex;align-items: center;}
+.receive-conent .receive-player-list .challenge-player-rank{width: 38rpx;height: 38rpx;line-height: 38rpx;text-align: center;border-radius: 50%;color: #fff;background-color: #FACC3F;margin-left: 29rpx;}
+.receive-conent .receive-player-list .challenge-player-head{width: 60rpx;height: 60rpx;display: block;border-radius: 50%;margin-left: 32rpx;}
+.receive-conent .receive-player-list .challenge-player-mark{font-size: 24rpx;color: #333;margin-left: 21rpx;}
+.receive-conent .receive-player-list .challenge-player-i{line-height: 40rpx;}
+
+.direct-play{text-align: center;color: #FFFFFF;font-size: 30rpx;padding: 70rpx 0 134rpx;}
+.img-adv{height: 155rpx;width: 100%;}

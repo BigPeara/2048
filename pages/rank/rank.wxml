@@ -1,0 +1,158 @@
+<view class='rankBox' bindtap="toCrowd">
+  <view class="rank">
+    <view class='closeBox'>
+       <image src='../../image/close.png' class='closeImg'></image>
+    </view>
+    <view class='rankInfo'>
+    <!--tab标题  -->
+      <view class='titleList'>
+        <text class="{{selected?'sel':'title'}}" bindtap="selected">南京市排行版</text>
+        <text class="{{selected1?'sel':'title'}}" bindtap="selected1">全国排行榜</text>
+      </view>
+      <!--tab切换内容  -->
+      <view class='items'>
+      <!--南京排行榜  -->
+        <view class="{{selected?'show':'hidden'}}">
+          <text class='update'>（每周一凌晨更新）</text>
+          <view class='ranklist'>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort one'>1</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹仙丹仙丹仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort two'>2</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort three'>3</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort four'>4</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort five'>5</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+          </view>
+        </view>
+        <!--全国排行榜  -->
+        <view class="{{selected1?'show':'hidden'}}">
+        <text class='update'>（每周一凌晨更新）</text>
+          <view class='ranklist'>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort one'>1</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort two'>2</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort three'>3</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort four'>4</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+             <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='sort five'>5</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+          </view>
+         
+        </view>
+        <!--底部  -->
+        <view class='last'>
+            <view class='user'>
+                <view class='uesrinfo'>
+                    <text class='popularity'>100+</text>
+                    <image class='headImg'></image>
+                    <text class='nickname'>仙丹</text>
+                </view>
+                <view>
+                 <text class='score'>57,300</text>
+                </view>
+             </view>
+          </view> 
+      </view>
+    </view>
+  </view>
+  <!--再玩一局  -->
+  <view class='btn-again'>
+    <text class='againTime'>再玩一局</text>
+    <image src='../../image/btn-again.png' class='nextImg'></image>
+  </view>
+  <!--查看排行榜  -->
+  <view class='btn-row'>
+    <image src='../../image/row.png' class='rowImg'></image>
+    <text class='btn-look'>查看排行榜</text>
+  </view>
+  <!--广告  -->
+  <view class='advBox'>
+  <image src='../../image/adv.png' class='advImg'></image>
+  </view>
+  
+</view>

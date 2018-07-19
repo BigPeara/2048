@@ -1,0 +1,47 @@
+.gameEnd-container{background-color: #2a2338;}
+
+.gameEnd-header{position: relative;}
+.gameEnd-header .img-title{width: 343rpx;height: 145rpx;display: block;margin: 0 auto;padding-top: 25rpx;}
+.gameEnd-header .img-share{width: 48rpx;height: 48rpx;position: absolute;right: 49rpx;top: 142rpx;}
+
+.gameEnd-user{position: relative;margin-top: 23rpx;}
+.gameEnd-user .img-head{width: 174rpx;height: 174rpx;border-radius: 50%;display: block;margin: 0 auto;}
+.gameEnd-user .nickName{width: 174rpx;color: #333;background-color: #fff;font-size: 24rpx;padding: 6rpx 0;text-align: center;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 1;overflow: hidden;border-radius: 20rpx;position: absolute;top: 163rpx;left: 50%;transform: translate(-50%,0);}
+
+.gameEnd-score{color: #fff;text-align: center;margin-top: 48rpx;position: relative;}
+.gameEnd-score .thisScore{font-size: 22rpx;}
+.gameEnd-score .score{font-size: 72rpx;font-weight: bold;}
+.gameEnd-score .score-high{font-size: 22rpx;}
+.gameEnd-score .img-new{width: 129rpx;height: 123rpx;}
+.gameEnd-score .score-state{position: absolute;right: 99rpx;top: -60rpx;}
+
+.gameEnd-rank{background-color: #FFDE94;border-radius: 10rpx;position: relative;margin:30rpx;}
+.gameEnd-rank .gameEnd-rank-list{padding-bottom: 30rpx;}
+.gameEnd-rank .gameEnd-rank-title{background:linear-gradient(#f6d267,#f5c666,#f6c666);font-size: 22rpx;color: #333;padding: 24rpx 0;text-align: center;border-top-left-radius: 10rpx;border-top-right-radius: 10rpx;}
+.gameEnd-rank .btn-look-rank{position: absolute;left: 50%;bottom: -30rpx;transform: translate(-50%,0);width: 338rpx;height: 60rpx;line-height: 60rpx;border-radius: 30rpx;background-color: #FFF6C1;font-size: 22rpx;color: #333;text-align: center;}
+.gameEnd-rank .player-details{display: flex;justify-content: space-between;align-items:center;padding: 23rpx 30rpx;}
+.gameEnd-rank .player-details .player-details-item{display: flex;align-items: center;}
+.gameEnd-rank .player-details .img-user-head{width: 60rpx;height: 60rpx;border-radius: 50%;}
+.gameEnd-rank .player-details .player-rank{width: 38rpx;height: 38rpx;line-height: 38rpx;font-size: 24rpx;text-align: center;border-radius: 50%;color: #fff;background-color: #FACC3F;}
+.gameEnd-rank .player-details  .player-info{display: flex;align-items: center;margin-left: 32rpx;}
+.gameEnd-rank .player-details  .player-name{font-size: 24rpx;color: #333;margin-left: 20rpx;max-width: 136rpx;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 1;overflow: hidden;}
+.gameEnd-rank .player-details  .user-score{font-size: 30rpx;color: #333;}
+
+.gameEnd-prompt{perspective: 120px;position: relative;left: 50%;top: 0;transform:translate(-50%,0);text-align: center;width: 410rpx;height: 118rpx;margin-top: 50rpx;}
+.gameEnd-prompt .gameEnd-prompt-info{position:absolute;left:50%;width:100%;top:50%;transform:translate(-50%,-50%);}
+.gameEnd-prompt .gameEnd-prompt-b{position: absolute;transform:rotateX(35deg);width: 410rpx;height: 118rpx;border: 2rpx dashed #E8B481;}
+.gameEnd-prompt .gameEnd-prompt-text{color: #AFA4C7;font-size: 24rpx;display: block;line-height: 55rpx;}
+.gameEnd-prompt .gameEnd-prompt-texts{color: #fff;font-size: 22rpx;display: block;}
+
+.game-again{margin: 0 50rpx;}
+.game-again .game-again-flex{display: flex;justify-content: space-between;align-items: center;margin-top: 48rpx;}
+.game-again .game-again-flex .btn-click{width: 92rpx;text-align: center;height: 92rpx;background-color: #EFEFEF;color: #333;font-size: 24rpx;border-radius:50%;}
+.game-again .game-again-flex .btn-click .btn-click-text{display: block;}
+.game-again .game-again-flex .icon-rank{width: 39rpx;height: 29rpx;margin-top:19rpx;}
+.game-again .game-again-flex .btn-challenge{margin-top: 12rpx;}
+.game-again .game-again-flex .btn-rank{font-size: 15rpx;}
+.game-again .game-again-flex .btn-again{width: 274rpx;height: 86rpx;line-height: 86rpx;text-align: center;font-size: 31rpx;color: #fff;background-color: #DF6240;border-radius: 50rpx;}
+.game-again .game-again-flex .icon-x{width: 31rpx;height: 31rpx;vertical-align:middle;margin-left: 18rpx;}
+.game-again .score-history{color: #AFA4C7;font-size: 24rpx;text-align: center;padding: 40rpx 0 50rpx;}
+
+.img-adv{width: 100%;height: 155rpx;}

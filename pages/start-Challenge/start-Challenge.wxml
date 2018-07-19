@@ -1,0 +1,30 @@
+<view class="start-container">
+     <view class="start-conent">
+        <view class="start-player">
+            <view class="start-player-head">
+                <image src="../../images/user.jpg" class="img-palyer-head"></image>
+                <view class="start-player-name">大梨子</view>
+            </view>
+            <view class="start-Challenge-title">= 挑战得分 =</view>
+            <view class="start-Challenge-score">{{}}111</view>
+            <view class="btn-Challenge">挑战</view>
+            <view class="start-valid-time">有效时间至23:59:59</view>
+        </view>
+        <view class="receive-player-list">
+            <view class="no-Challenge-player">暂无人挑战</view>
+            <view class="challenge-player-item challenge-my-item">
+                <view class="challenge-player-flex">
+                    <view class="challenge-player-rank">1</view>
+                    <image class="challenge-player-head" src="../../images/user.jpg"></image>
+                    <view class="challenge-player-mark">
+                        <view class="challenge-player-i">大梨子</view>
+                        <view class="challenge-player-i">5201314</view>
+                    </view>
+                </view>
+                <view class="challenge-result">挑战成功</view>
+            </view>
+        </view>
+     </view>
+     <view class="direct-play">不挑战，直接玩></view>
+     <image src="../../images/mark-adv.png" class="img-adv"></image>
+</view>

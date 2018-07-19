@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class='mask' >
+  <image src='../../images/logo.png' class='logo' mode="widthFix"></image>
+  <text class='ready'>合并数字方块得到2048，Are you ready？</text>
+  <view class='start'>
+    <text class='btn-start' bindtap="startGame">开始游戏</text>
+    <image src='../../images/btn-start.png' class='startImg'></image>
+  </view>
+  <view class='btn-row' bindtap="toRank">
+    <image src='../../images/row.png' class='rowImg'></image>
+    <text class='btn-look'>查看排行榜</text>
+  </view>
+</view>
